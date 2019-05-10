@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     {
         Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
         //Zad 2
-        //Intent intent = new Intent(this,com.example.jpwp.MapsActivity.class);
+        //Intent intent = new Intent(this,com.example.jpwp.docelowaklasa.class);
         //intent.putExtra();
         //startActivity();
 
