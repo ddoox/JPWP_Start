@@ -14,24 +14,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Zad 1 - Dodanie przycisku oraz nadanie mu id "btn" oraz przypisanie go do zmiennej
+        //Zad 1c - przypisz przycisk do zmiennej
 
 
-        //Zad 2 naciśnięcie przycisku ma wywoływać funkcję click()
+        //Zad 1d - utwórz onClickListener dla przycisku, ma wywoływać wcześniej utworzoną funkcję click()
 
 
+        //Zad 1e - Dodanie przycisku o id "btn" oraz dodanie do niego onClickListener()
 
-    }
 
-    //Zad 2 stworzenie funkcji, a w niej obiektu intent przenoszącego do nowej activity
-    public void click()
-    {
-        Toast.makeText(this, "test", Toast.LENGTH_SHORT).show();
-        //Zad 2
-        //Intent intent = new Intent(this,com.example.jpwp.docelowaklasa.class);
-        //intent.putExtra();
-        //startActivity();
+        //Zad 2 naciśnięcie przycisku ma wywoływać funkcję click().
+        // Teraz jej zadaniem jest rozpoczęcie nowej nowej aktywności
 
 
     }
+
+    //Zad 1b - Utworzenie funkcji click() wyświetlającej dymek z powiadomieniem
+
 }

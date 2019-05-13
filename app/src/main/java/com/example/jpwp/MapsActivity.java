@@ -50,16 +50,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
-        // Zad 2 - odebranie wiadomosci
-        //String wiadomosc = getIntent().getStringExtra(idwiadomosci);
+        // Zad 2 - odebranie wiadomosci i przypisanie jej do pola "textView2"
 
 
-
-
-        //Zad 3 - funkcja finish() wywołuje onDestroy, zabiajając activity
-
-
-
+        //Zad 3 - przycisk ma wywoływać funkcję finish()
 
 
         // Zad 6 - przypisanie pól tekstowych
@@ -67,9 +61,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
-/*
-        // Zad 5 - kod służacy do otrzymywania lokalizacji
 
+        // Zad 5 - kod służacy do otrzymywania lokalizacji
+/*
         // Tworzenie instancji Fused Location Provider Client, wykorzystywana do lokalizacji
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
 
@@ -110,8 +104,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         };
 
-*/
 
+*/
 
     }
 
@@ -122,9 +116,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-        //Zad 4 - utworzenie markera
-        //LatLng latlng = new LatLng();
-        //AktualnaPozycjaMarker = mMap.addMarker(new MarkerOptions().position().title());
+        //Zad 4 - utworzenie markera w okolicy Krakowa
 
     }
 
@@ -164,5 +156,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 */
+
+
+//Zad 6 Pola tekstowe aktualizowane wraz z aktualizacją współrzędnych
+//Zad 7 Marker przesuwany wraz z aktualizacją współrzędnych
 
 }
